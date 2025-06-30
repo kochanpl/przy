@@ -14,59 +14,72 @@ const Head: React.FC<HeadProps> = ({
 }) => {
   return (
     <header 
-      className="relative w-full min-h-screen bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center"
+      className="relative w-full min-h-screen bg-cover bg-center bg-no-repeat"
       style={{
         backgroundImage: 'url(/hero-bg.png)',
       }}
     >      
 
+<div className="max-w-5xl mx-auto flex flex-col justify-center items-center xl:items-start">
+
+
+
+<div className="w-full">
 
 <Image
-          src="/Grzegrzolka_logo_white 1.png"
+          src="/grzegrzolka-logo-white.svg"
           alt="Grzegrzolka_logo"
-          width={266}
-          height={57}
-          sizes="100vw"
-          className="w-auto h-auto object-contain mb-6 mt-4 min-w-[266px] "
+          width={205}
+          height={45}
+          className="w-auto h-auto object-contain mb-6 mt-4 min-w-[205px] px-4 2xl:px-0"
           priority
         />
 
+</div>
+
+
+
+
+
+
 
       {/* Content */}
-      <div className="max-w-7xl mx-auto pb-4 sm:pb-8 lg:pb-16 relative z-10 text-center px-4 sm:px-6 lg:px-8 flex items-center justify-center">
-        <div className="w-full max-w-4xl">
+      <div className="pb-8 sm:pb-8 xl:pb-16 z-10 md:pt-12  ml-6 sm:ml-0">
+
           <Image
-            src="/przynosimy_hero.png"
-            alt="Przynosimy Hero"
-            width={491}
+            src="/myslisz_o_loterii.png"
+            alt="Myslisz o loterii"
+            width={792}
             height={211}
-          sizes="100vw"
-            className="w-full h-auto max-w-full object-contain min-w-[326px]"
+            sizes="100vw"
+            className="w-full h-auto max-w-full object-contain min-w-[356px] sm:max-w-[526px] lg:min-w-[792px] px-4 2xl:px-0"
             priority
           />
         </div>
-      </div>
+  
+
+
 
 
       {/* New section with the specified content */}
-      <section className="py-2 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto flex flex-col md:flex-row">
+      <section className="flex flex-col lg:flex-row relative px-4 2xl:px-0 items-center">
        
-       <div>
-       
-       
-        <div className="max-w-4xl mx-auto">
+
+
+
+        <div className="">
           <h2 className="text-white text-2xl text-[16px] sm:text-[24px] font-bold mb-8">
             PRZYNOSIMY CI WIEDZĘ<br />
             ZEBRANĄ W E-KOMPENDIUM,<br />
             Z KTÓREGO DOWIESZ SIĘ M.IN.:
           </h2>
           
-          <div className="text-white text-lg sm:text-[22px] space-y-1 font-semibold">
-            <p>» jak zorganizować loterię,</p>
-            <p>» jakie są wymagania prawne,</p>
-            <p>» jakie są wzorce dokumentów,</p>
-            <p>» na co i dlaczego należy uważać.</p>
-          </div>
+          <ul className="text-white text-lg sm:text-[24px] font-normal leading-8">
+            <li>» jak zorganizować loterię,</li>
+            <li>» jakie są wymagania prawne,</li>
+            <li>» jakie są wzorce dokumentów,</li>
+            <li>» na co i dlaczego należy uważać.</li>
+          </ul>
           
           {/* Silver Button */}
           <div className="mt-8 ">
@@ -79,28 +92,35 @@ const Head: React.FC<HeadProps> = ({
           </div>
         </div>
 
-        </div>
 
 
+<div>
 
 
         <Image
           src="/girl33.png"
           alt="Girl33"
-          width={273}
+          width={471}
           height={372}
-          sizes="100vw"
-          className="w-auto h-auto max-w-full  object-contain mt-4 lg:mt-0 min-w-[273px]"
+          className= "mt-4 lg:mt-0 min-w-[271px] lg:min-w-[471px] xl:absolute left-135 -top-52 z-10"
           priority
         />
 
-
-
-
+</div>
 
 
 
       </section>
+
+
+
+
+</div>
+
+
+
+
+
 
     </header>
 
