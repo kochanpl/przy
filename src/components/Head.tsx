@@ -44,7 +44,7 @@ const Head: React.FC<HeadProps> = ({
 
 
       {/* Content */}
-      <div className="pb-8 sm:pb-8 xl:pb-16 z-10 md:pt-12  ml-6 sm:ml-0">
+      <div className="pb-8 sm:pb-8 xl:pb-16 z-10 md:pt-12 ml-6 md:ml-0">
 
           <Image
             src="/myslisz_o_loterii.png"
@@ -52,7 +52,7 @@ const Head: React.FC<HeadProps> = ({
             width={792}
             height={211}
             sizes="100vw"
-            className="w-full h-auto max-w-full object-contain min-w-[356px] sm:max-w-[526px] lg:min-w-[792px] px-4 2xl:px-0"
+            className="w-full h-auto max-w-full object-contain min-w-[356px] sm:max-w-[526px] xl:min-w-[792px] px-4 2xl:px-0"
             priority
           />
         </div>
@@ -62,7 +62,7 @@ const Head: React.FC<HeadProps> = ({
 
 
       {/* New section with the specified content */}
-      <section className="flex flex-col lg:flex-row relative px-4 2xl:px-0 items-center">
+      <section className="flex flex-col lg:flex-row relative px-4 2xl:px-0 items-center justify-center">
        
 
 
