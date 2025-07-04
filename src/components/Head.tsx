@@ -82,7 +82,7 @@ const Head: React.FC<HeadProps> = ({
           </ul>
           
           {/* Silver Button */}
-          <div className="mt-8 ">
+          <div className="mt-8 md:mb-16">
             <a
               href="mailto:biuro@grzegrzolka.com"
               className="inline-block px-6 py-3 bg-white text-[#E63414] font-bold text-2xl rounded-xl"
